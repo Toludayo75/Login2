@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color:#232323;
+    --secondary-color:#fff;
+}
+/*.nav-head{
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  background: #232323;
+
+}*/
+body{
+    background-color:black ; /* For browsers that do not support gradients */
+
+}   
+header{
+    background: #232323;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+.red{
+    background: linear-gradient(to right,#ff2770, #45f3ff) ;
+    height:  4.3rem;
+    -webkit-transition: height 2s; 
+    transition: height 2s;
+    overflow: hidden;
+}
+.red-text{
+    overflow: none;
+    height: rem;
+}
+/*
+.red {
+    width: 100px;
+    height: 100px;
+
+    -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 
+    transition: height 2s;
+  }*/
+  
+  .red:hover {
+    height: 8rem;
+  overflow: visible;  
+  }
+.aniNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.aniNav h3{
+color: #fff;
+margin-left: 1rem;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: rem;
+    /*background: #fff;*/
+}
+.right-nav li{
+   padding: 1rem;
+  background-color: none; 
+  text-decoration: none;
+  color: #232323;
+  list-style: none;
+}
+.right-nav li a{
+    text-decoration: none;
+}
+
+.round{
+    background-color: var(--secondary-color);
+    border: 0.7rem solid var(--secondary-color);
+    border-radius: 5px;
+    color: var(--primary-font-color);
+}
+.round-border{
+    background-color: #232323;
+    border: 0.7rem solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--secondary-color);
+}
+
